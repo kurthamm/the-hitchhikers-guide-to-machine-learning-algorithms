@@ -170,30 +170,14 @@ TD-Lambda uses reinforcement learning as its learning method.
 
 ## TD-Lambda: ELI5
 
-TD-Lambda is a fancy algorithm that helps machines learn from rewards they
-receive while performing certain actions. It's like a child receiving candy
-after doing their homework - the more they get rewarded, the more they'll
-learn that doing their homework is a good thing.
+TD-Lambda is like a smart reward system that helps machines learn from their actions. Imagine a child getting a piece of candy every time they finish their homework - the more they get rewarded, the more they understand that doing homework is beneficial.  However, TD-Lambda doesn't treat all rewards equally. It's like a parent who gives a bigger candy bar when the child finishes all their homework for the week, compared to smaller candies for individual assignments. This way, the child learns to value the completion of all homework more than just finishing one assignment.
 
-Unlike simple learning methods where all rewards receive the same value, TD-
-Lambda takes into account the timing of the reward and it's size. For example,
-if a child receives candy after every question on their homework, TD-Lambda
-will value the candy they received after finishing the homework as bigger than
-the candies they received for individual questions.
+The secret sauce of TD-Lambda is something called an 'eligibility trace'. Think of it as a breadcrumb trail that the machine leaves behind. This trail helps TD-Lambda to remember what actions led to the reward, not just the last step. It's like the child remembering all the homework they did during the week, not just the last assignment they completed before getting the big candy bar.
 
-The trick behind TD-Lambda is something called an eligibility trace. This is
-like a record of everything the machine has done so far - kind of like how a
-secret agent leaves small clues to find their way back to their starting
-point. This allows TD-Lambda to assign rewards to previous steps, not just the
-one immediately preceding it.
+In essence, TD-Lambda is like a smart GPS system for learning machines - it helps them stay on track, and knows how to guide them back when they stray off course. It's a clever way of combining different learning methods to help machines learn more efficiently and effectively. It's like a parent who knows just when and how to reward their child to motivate them to do their homework.  Think of TD-Lambda like a GPS system for learning machines - it helps to keep them on track, and it knows how to re-route them when they go off course.
 
-Think of TD-Lambda like a GPS system for learning machines - it helps to keep
-them on track, and it knows how to re-route them when they go off course.
-
-So, TD-Lambda is an algorithm that is used in reinforcement learning, and it's
-a way of combining different methods to help the machines learn more
-efficiently. It's like giving a child candy for their homework, but only when
-they get really close to completing it. TD-Lambda is like a GPS system,
+So, TD-Lambda is an algorithm that is used in reinforcement learning, and it's a way of combining different methods to help the machines learn more
+efficiently. It's like giving a child candy for their homework, but only when they get really close to completing it. TD-Lambda is like a GPS system,
 guiding the machine to the right answer and keeping it on track of its goal.
 
   *[MCTS]: Monte Carlo Tree Search
